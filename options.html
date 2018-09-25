@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html style="min-width:300px;">
+<head>
+<title>Resize Options</title>
+</head>
+<body>
+
+<div style="width:90%;">
+
+<p><strong>Height:</strong></p>
+<input type="number" id="height" value="", step="1", min="0", max="10000" />
+<label>Current Height: </label> <label id="currHeight"></label>
+
+<p><strong>Pad Height:</strong></p>
+<input type="number" id="padheight" value="", step="1", min="0", max="300" />
+
+<p><strong>Width:</strong></p>
+<input type="number" id="width" value="", step="1", min="0", max="10000" />
+<label>Current Width: </label> <label id="currWidth"></label>
+
+<p><strong>Pad Width:</strong></p>
+<input type="number" id="padwidth" value="", step="1", min="0", max="1000" />
+
+<br/>
+<br/>
+<div id="status"></div>
+<button id="save">Save</button>
+</div>
+
+<br/>
+<br/> <label>Current value might be slightly different because of how toolbars, bookmark bars, and scrollbars change the visible window. Best used as an estimate of what you want. Use the padding boxes to adjust manually to account for this discrepancy.</label>
+<label>Press the event twice after saving if it doesn't work right away.</label>
+
+<script src="options.js"></script>
+
+</body>
+</html>
